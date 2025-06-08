@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: black !important;
+}
+
+
+section,
+.bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+	
+.bg{
+  background-image:linear-gradient(to right,white,pink);
+  height:100vh;
+  width:100%;
+  background-size:cover;
+}
+.img{
+	border-radius:200px;
+	height:250px;
+	border-width:2px;
+	border-color:black;
+	border-style:solid;
+}
+.card{
+	background-image:linear-gradient(to right,#e2798a,pink);
+	color:black;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	padding-left:10px;
+	text-align:center;
+}
+.proj{
+	width:100%;
+	max-width:400px;
+	height:autopx;
+	margin:10px;
+}
+
